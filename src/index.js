@@ -1,6 +1,7 @@
 import express from "express";
 import { engine } from "express-handlebars";
 import morgan from "morgan";
+import methodOverride from "method-override";
 import dotenv from "dotenv";
 import { fileURLToPath } from "url";
 import path, { dirname } from "path";
@@ -11,8 +12,8 @@ import connectToDb from "./config/db.js";
 
 // load environment variables
 dotenv.config();
-const port = process.env.PORT || 3000;
-const dbConnStr = process.env.DB_CONNECTION_STRING;
+const port = process.env.port || 3000;
+const dbConnStr = process.env.dbConnectionString;
 
 // get current directory
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -32,7 +33,9 @@ const app = express()
         // parse application/json (fetch, xmlhttprequest, axios, ...)
         express.json(),
         // http logger
-        morgan("combined")
+        morgan("combined"),
+        // method override
+        methodOverride("_method")
     )
     // configure handlebars
     .engine(

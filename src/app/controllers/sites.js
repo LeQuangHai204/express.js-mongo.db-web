@@ -17,6 +17,11 @@ const sitesController = {
     search: (request, response) => {
         response.render("search");
     },
+
+    // [GET] /:anything
+    notfound: (request, response) => {
+        response.render("notfound");
+    },
 };
 
 export default sitesController;

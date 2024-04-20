@@ -1,9 +1,8 @@
-import newsRoutes from "./news.js";
 import sitesRoutes from "./sites.js";
 import coursesRoutes from "./courses.js";
 import adminRoutes from "./admin.js";
 
-const allRoutes = [newsRoutes, sitesRoutes, coursesRoutes, adminRoutes];
+const allRoutes = [sitesRoutes, coursesRoutes, adminRoutes];
 
 /**
  * Sets up the routes for the application.

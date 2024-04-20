@@ -1,45 +1,97 @@
-<div class="mt-4 container">
-    <table class="table">
-        <thead>
-            <tr>
-                <th scope="col">#</th>
-                <th scope="col">Name</th>
-                <th scope="col">Description</th>
-            </tr>
-        </thead>
-        <tbody class="table-group-divider">
-            {{#each courses}}
+<table class="table container mt-4 table-striped align-middle">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col" colspan="2">Name</th>
+            <th scope="col" colspan="3">Description</th>
+        </tr>
+    </thead>
+    <tbody class="table-group-divider">
+        {{#each courses}}
             <tr>
                 <th scope="row">{{sum @index 1}}</th>
+                <td>
+                    <a href="/courses/{{this.slug}}">
+                        <img
+                            src="{{this.image}}"
+                            style="height: 3rem; width: 4rem; object-fit: cover;"
+                        />
+                    </a>
+                </td>
                 <td>{{this.name}}</td>
                 <td class="description">{{this.description}}</td>
+                <td>
+                    <a
+                        href="/courses/{{this._id}}/edit"
+                        class="btn btn-primary"
+                    >
+                        Edit
+                    </a>
+                </td>
+                <td>
+                    <a
+                        href="/courses/{{this._id}}/delete"
+                        class="btn btn-danger"
+                    >
+                        Delete
+                    </a>
+                </td>
             </tr>
-            {{else}}
+        {{else}}
             <tr>
                 <td colspan="3">
                     You have not created any courses yet
                 </td>
             </tr>
-            {{/each}}
-        </tbody>
-    </table>
-</div class="container">
+        {{/each}}
 
-<style>
-    th, td {
-        vertical-align: middle;
-    }
+        {{! delete comfirmation modal}}
+        {{! <button
+            type="button"
+            class="btn btn-primary"
+            data-toggle="modal"
+            data-target="#exampleModal"
+        >
+            Launch demo modal
+        </button>
 
-    .table td.description {
-        display: -webkit-box;      /* Use legacy webkit for compatibility */
-        max-width: 60%;            /* Limit column width to 40% of table */
-        overflow: hidden;          /* Hide overflowing content */
-        word-wrap: break-word;     /* Allow word wrap if content exceeds one line */
-        {{!-- 
-        text-overflow: ellipsis;   /* Display ellipsis for overflow */
-        -webkit-box-orient: vertical; /* Set vertical orientation for box */
-        -webkit-line-clamp: 2;     /* Limit the number of displayed lines to 2 */
-        --}}
-    }
-</style>
-
+        <!-- Modal -->
+        <div
+            class="modal fade"
+            id="exampleModal"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal
+                            title</h5>
+                        <button
+                            type="button"
+                            class="close"
+                            data-dismiss="modal"
+                            aria-label="Close"
+                        >
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-dismiss="modal"
+                        >Close</button>
+                        <button type="button" class="btn btn-primary">Save
+                            changes</button>
+                    </div>
+                </div>
+            </div>
+        </div> }}
+    </tbody>
+</table>
