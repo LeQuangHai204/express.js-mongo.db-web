@@ -1,0 +1,169 @@
+[{
+  "_id": {
+    "$oid": "661e723f0b6c8c9ad1117b7b"
+  },
+  "name": "Làm việc với Terminal & Ubuntu",
+  "description": "Sở hữu một Terminal hiện đại, mạnh mẽ trong tùy biến và học cách làm việc với Ubuntu là một bước quan trọng trên con đường trở thành một Web Developer",
+  "image": "https://files.fullstack.edu.vn/f8-prod/courses/14/624faac11d109.png",
+  "slug": "terminal-interaction",
+  "video_id": "LnTPJcUQdNU"
+},
+{
+  "_id": {
+    "$oid": "661e723f0b6c8c9ad1117b7c"
+  },
+  "name": "Kiến Thức Nhập Môn IT",
+  "description": "Để có cái nhìn tổng quan về ngành IT - Lập trình web các bạn nên xem các videos tại khóa này trước nhé",
+  "image": "https://files.fullstack.edu.vn/f8-prod/courses/7.png",
+  "slug": "it-introduction",
+  "video_id": "LnTPJcUQdNU"
+},
+{
+  "_id": {
+    "$oid": "661e723f0b6c8c9ad1117b7d"
+  },
+  "name": "App 'Đừng Chạm Tay Lên Mặt'",
+  "description": "Xây dựng ứng dụng đưa ra cảnh báo khi người dùng sờ tay lên mặt. Chúng ta sẽ sử dụng thư viện ReactJS & Tensoflow đeer hoan thien",
+  "image": "https://files.fullstack.edu.vn/f8-prod/courses/4/61a9e9e701506.png",
+  "slug": "ai-application",
+  "video_id": "LnTPJcUQdNU",
+  "updatedAt": {
+    "$date": "2024-04-20T07:23:28.060Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "661eb7f240b17b82fd814dab"
+  },
+  "name": "Master C# in 3 Months",
+  "description": "May the force be with you, young and ambitious of a kind",
+  "image": "https://img.youtube.com/vi/LnTPJcUQdNU/0.jpg",
+  "video_id": "LnTPJcUQdNU",
+  "createdAt": {
+    "$date": "2024-04-16T17:40:02.681Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-16T17:40:02.681Z"
+  },
+  "__v": 0,
+  "slug": "csharp-fundamental"
+},
+{
+  "_id": {
+    "$oid": "661eb93c97f6faab648a0f5c"
+  },
+  "name": "Introduction to Git",
+  "description": "Knowing git can enhance the collaborative workspace than anything for a developer. Ready to go?",
+  "image": "https://img.youtube.com/vi/nqLXmpEgU2w/0.jpg",
+  "video_id": "nqLXmpEgU2w",
+  "createdAt": {
+    "$date": "2024-04-16T17:45:32.694Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T07:20:32.729Z"
+  },
+  "__v": 0,
+  "slug": "git-fundamental"
+},
+{
+  "_id": {
+    "$oid": "661eba9bb223e0c78868a29f"
+  },
+  "name": "Computer Vision with Python",
+  "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit",
+  "image": "https://img.youtube.com/vi/vT1JzLTH4G4/0.jpg",
+  "video_id": "vT1JzLTH4G4",
+  "slug": "computer-vision",
+  "createdAt": {
+    "$date": "2024-04-16T17:51:23.460Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-16T17:51:23.460Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ec351b534c31b5b73fbd7"
+  },
+  "name": "Sing Like a Singer",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce neque diam, aliquam eget elit ac, imperdiet ultricies sem. Suspendisse a felis sed turpis fringilla porta quis quis leo. Nam porta felis vitae scelerisque sagittis. Vestibulum rhoncus condimentum consequat. Mauris sollicitudin id enim non pharetra",
+  "image": "https://img.youtube.com/vi/yO28Z5_Eyls/0.jpg",
+  "video_id": "yO28Z5_Eyls",
+  "createdAt": {
+    "$date": "2024-04-16T18:28:33.519Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-16T18:28:33.519Z"
+  },
+  "slug": "sing-like-a-singer",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ec468e8bace5e8838bf71"
+  },
+  "name": "Learn Like an Indian",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce neque diam, aliquam eget elit ac, imperdiet ultricies sem. Suspendisse a felis sed turpis fringilla porta quis quis leo. Nam porta felis vitae scelerisque sagittis. Vestibulum rhoncus condimentum consequat. Mauris sollicitudin id enim non pharetra",
+  "image": "https://img.youtube.com/vi/3RQtq7PDHog/0.jpg",
+  "video_id": "3RQtq7PDHog",
+  "createdAt": {
+    "$date": "2024-04-16T18:33:12.115Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-16T18:33:12.115Z"
+  },
+  "slug": "learn-like-an-indian",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620da06371ee09ea55493b3"
+  },
+  "name": "Computer Vision with Java",
+  "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit",
+  "image": "https://img.youtube.com/vi/yO28Z5_Eyls/0.jpg",
+  "video_id": "yO28Z5_Eyls",
+  "createdAt": {
+    "$date": "2024-04-18T08:29:58.317Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T08:29:58.317Z"
+  },
+  "slug": "computer-vision-with-java",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620dbd2df69e41a644c1139"
+  },
+  "name": "Computer Vision with C++",
+  "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit",
+  "image": "https://img.youtube.com/vi/yO28Z5_Eyls/0.jpg",
+  "video_id": "yO28Z5_Eyls",
+  "createdAt": {
+    "$date": "2024-04-18T08:37:38.237Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T08:37:38.237Z"
+  },
+  "slug": "computer-vision-with-c",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662122ac4cdd3742f465adfc"
+  },
+  "name": "Data structure",
+  "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit",
+  "image": "https://img.youtube.com/vi/yO28Z5_Eyls/0.jpg",
+  "video_id": "yO28Z5_Eyls",
+  "createdAt": {
+    "$date": "2024-04-18T13:39:56.396Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T13:39:56.396Z"
+  },
+  "slug": "data-structure",
+  "__v": 0
+}]
