@@ -1,0 +1,45 @@
+<div class="mt-4 container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Description</th>
+            </tr>
+        </thead>
+        <tbody class="table-group-divider">
+            {{#each courses}}
+            <tr>
+                <th scope="row">{{sum @index 1}}</th>
+                <td>{{this.name}}</td>
+                <td class="description">{{this.description}}</td>
+            </tr>
+            {{else}}
+            <tr>
+                <td colspan="3">
+                    You have not created any courses yet
+                </td>
+            </tr>
+            {{/each}}
+        </tbody>
+    </table>
+</div class="container">
+
+<style>
+    th, td {
+        vertical-align: middle;
+    }
+
+    .table td.description {
+        display: -webkit-box;      /* Use legacy webkit for compatibility */
+        max-width: 60%;            /* Limit column width to 40% of table */
+        overflow: hidden;          /* Hide overflowing content */
+        word-wrap: break-word;     /* Allow word wrap if content exceeds one line */
+        {{!-- 
+        text-overflow: ellipsis;   /* Display ellipsis for overflow */
+        -webkit-box-orient: vertical; /* Set vertical orientation for box */
+        -webkit-line-clamp: 2;     /* Limit the number of displayed lines to 2 */
+        --}}
+    }
+</style>
+
