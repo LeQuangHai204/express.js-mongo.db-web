@@ -51,7 +51,7 @@ const coursesController = {
     // [DELETE] /courses/:id
     delete(request, response, next) {
         CoursesModel.deleteOne({ _id: request.params.id })
-            .then(() => response.redirect("back"))
+            .then(() => response.redirect("back"))  
             .catch(next);
     },
 };
